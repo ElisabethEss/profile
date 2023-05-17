@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: rgb(220, 226, 233);
+  color: rgb(68, 67, 67);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 1px;
+  color: rgb(126, 130, 191);
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  letter-spacing: 2px;
+  color: rgb(73, 76, 115);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#profile-lisa {
+  width: 50%;
+}
+
+.button {
+  background-color:rgb(126, 130, 191);
+  color:rgb(220, 226, 233);
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: gray;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
